@@ -1,8 +1,7 @@
 const fetch = require("node-fetch");
 
-async function getRandomDogImage() {
+export async function getRandomDogImage() {
   const response = await fetch("https://dog.ceo/api/breeds/image/random");
   const data = await response.json();
   return data.message;
 }
-getRandomDogImage();
