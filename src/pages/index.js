@@ -9,7 +9,7 @@ function IndexPage() {
       <p>This is the home page</p>
       <StaticImage
         alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-        src={getRandomDogImage()}
+        src="../images/clifford.jpg"
       />
     </Layout>
   );
