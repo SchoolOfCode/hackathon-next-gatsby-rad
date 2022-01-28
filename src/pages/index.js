@@ -1,7 +1,7 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import { StaticImage } from "gatsby-plugin-image";
-import { getRandomDogImage } from "../services/dogAPI.js";
+// import { getRandomDogImage } from "../services/dogAPI.js";
 
 function IndexPage() {
   return (
